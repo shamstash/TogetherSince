@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "datetime-difference": "^1.0.2",
+    "type": "module"
+  }
+}

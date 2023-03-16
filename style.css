@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;700&display=swap');
+*{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+
+body{
+  background-image: url(pexels-adam-krypel-6498994.jpg);
+  background-size: cover;
+}
+
+
+.container {
+    width: 18rem;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    margin: auto;
+    border-radius: 1rem;
+    background: rgb(0, 43, 91, 0.9);
+    padding: 1.5rem;
+  }
+
+  
+  #together{
+    white-space: pre-line;
+    color: #DADDDF;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+
+  #mangoAge{
+      white-space: pre-line;
+      color: #DADDDF;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+  #shamsAge{
+      white-space: pre-line;
+      color: #DADDDF;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+
+span {
+  color: #C40B13;
+}
