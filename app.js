@@ -50,7 +50,7 @@ function datetimeDiff (from, to) {
 
 let togetherTimeDiff = document.getElementById("together");
 function calc (){
-const date1 = new Date("5/21/2020, 07:55:00 AM");
+const date1 = new Date("5/21/2020, 00:00:00 AM");
 const date2 = new Date(Date.now());
 
 const result = datetimeDiff(date1, date2);
