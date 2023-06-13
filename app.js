@@ -55,7 +55,7 @@ const date2 = new Date(Date.now());
 
 const result = datetimeDiff(date1, date2);
 
-console.log(result.seconds)
+
 
 togetherTimeDiff.innerHTML = `Years: ${result.years} \n Months: ${result.months} \n Days: ${result.days} \n Hours: ${result.hours} \n Minutes: ${result.minutes} \n Seconds: ${result.seconds} \n Milliseconds: ${result.millisecond}` 
 }
@@ -67,7 +67,7 @@ const date2 = new Date(Date.now());
 
 const result = datetimeDiff(date1, date2);
 
-console.log(result.seconds)
+
 
 shams.innerHTML = `Years: ${result.years} \n Months: ${result.months} \n Days: ${result.days} \n Hours: ${result.hours} \n Minutes: ${result.minutes} \n Seconds: ${result.seconds} \n Milliseconds: ${result.millisecond}` 
 }
@@ -79,7 +79,7 @@ const date2 = new Date(Date.now());
 
 const result = datetimeDiff(date1, date2);
 
-console.log(result.seconds)
+
 
 mango.innerHTML = `Years: ${result.years} \n Months: ${result.months} \n Days: ${result.days} \n Hours: ${result.hours} \n Minutes: ${result.minutes} \n Seconds: ${result.seconds} \n Milliseconds: ${result.millisecond}` 
 }
@@ -91,4 +91,4 @@ function calculation() {
     calc2();
 }
 
-setInterval(calculation,1)
+const id = setInterval(calculation,1)
